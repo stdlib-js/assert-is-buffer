@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-buffer@esm/index.mjs';
+import isBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-buffer@v0.1.1-esm/index.mjs';
 ```
 
 #### isBuffer( value )
@@ -94,7 +94,7 @@ var bool = isBuffer( value );
 
 import Int8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int8@esm/index.mjs';
 import Buffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-ctor@esm/index.mjs';
-import isBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-buffer@esm/index.mjs';
+import isBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-buffer@v0.1.1-esm/index.mjs';
 
 var bool = isBuffer( new Buffer( [ 1, 2, 3, 4 ] ) );
 // returns true
