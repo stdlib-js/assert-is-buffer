@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-buffer@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-buffer/tags). For example,
+
+```javascript
 import isBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-buffer@v0.2.1-deno/mod.js';
 ```
 
@@ -89,7 +94,7 @@ var bool = isBuffer( value );
 ```javascript
 import Int8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int8@deno/mod.js';
 import Buffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-ctor@deno/mod.js';
-import isBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-buffer@v0.2.1-deno/mod.js';
+import isBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-buffer@deno/mod.js';
 
 var bool = isBuffer( new Buffer( [ 1, 2, 3, 4 ] ) );
 // returns true
